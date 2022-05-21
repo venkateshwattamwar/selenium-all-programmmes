@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [15 jan Katraj suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="morning test tag(failed)">
+    <classes>
+      <class name="TestDiscussion.DependsOnMethodsKeyword">
+        <methods>
+          <include name="logout"/>
+          <include name="loginTest"/>
+          <include name="homepage"/>
+        </methods>
+      </class> <!-- TestDiscussion.DependsOnMethodsKeyword -->
+      <class name="TestDiscussion.DependsOnMethodsKeyword2">
+        <methods>
+          <include name="profie"/>
+        </methods>
+      </class> <!-- TestDiscussion.DependsOnMethodsKeyword2 -->
+    </classes>
+  </test> <!-- morning test tag(failed) -->
+</suite> <!-- Failed suite [15 jan Katraj suite] -->
